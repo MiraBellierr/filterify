@@ -1,0 +1,16 @@
+{
+    "author": "mira",
+    "manifest_version": 2,
+    "name": "filterify",
+    "version": "1.0",
+    "description": "A Firefox extension for filtering the twitch chat to only see messages from one person only at https://twitch.tv/popout/<username>/chat",
+    "icons": {
+        "48": "icons/mira.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.twitch.tv/popout/*/chat"],
+            "js": ["filterify.js"]
+        }
+    ]
+}

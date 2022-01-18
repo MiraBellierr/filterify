@@ -1,0 +1,15 @@
+{
+  "name": "filterify",
+  "version": "1.0.0",
+  "description": "A Firefox extension for filtering the twitch chat to only see messages from one person only at https://twitch.tv/popout/<username>/chat",
+  "main": "filterify.js",
+  "scripts": {
+    "start:firefox": "web-ext run",
+    "build": "web-ext build"
+  },
+  "keywords": [
+    "filterify"
+  ],
+  "author": "Mirabellier",
+  "license": "ISC"
+}
