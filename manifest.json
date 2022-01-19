@@ -12,5 +12,11 @@
             "matches": ["*://*.twitch.tv/popout/*/chat"],
             "js": ["filterify.js"]
         }
-    ]
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "addon@filterify.com",
+            "strict_min_version": "42.0"
+        }
+    }
 }
